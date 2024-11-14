@@ -2,12 +2,14 @@ body {
     min-height: 100vh;
     background-color: #fffbf0 !important;
 }
-.container{
+
+.container {
     min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .questionFooter {
     border-top: 1px solid rgba(0, 0, 0, 0.24);
     display: flex;
@@ -15,6 +17,11 @@ body {
     align-items: center;
     padding-top: 12px;
 }
+
 .quizz-card {
     width: 30rem;
+}
+
+.answerCard:hover {
+    cursor: pointer;
 }
