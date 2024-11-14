@@ -24,4 +24,19 @@ body {
 
 .answerCard:hover {
     cursor: pointer;
+    background-color: #fffbf0;
+}
+.bg-success, .bg-danger {
+    color: white !important;
+}
+.endCard {
+    border: none !important;
+}
+
+.finishedCard {
+    display: flex;
+    align-items: center;
+}
+.replay {
+    margin-bottom: 14px !important;
 }
